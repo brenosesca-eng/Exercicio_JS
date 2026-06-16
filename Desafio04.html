@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 04 - JS</title>
+    <script>
+         var usario = prompt( 'Qual é o seu usuário? ' );
+          var Classe = prompt( 'Qual classe você pertence? (1/2/3)' );
+           var venda = Number(prompt( 'Quantos reais você vendeu? ' ));
+          
+
+
+             if(Classe == '1' ){
+              var salario = 1500 ;
+               var comissao = 0.025;
+              var total = salario + comissao * venda
+                document.write ('Você irá receber neste mês: ' + total + ' reais '
+                );
+            }else if( Classe == '2' ){
+               var salario = 2000 ;
+               var comissao = 0.03;
+               var total = salario + comissao * venda
+                document.write ('Você irá receber neste mês: ' + total + ' reais '
+                );
+            }else if( Classe == '3' ){
+               var salario = 2500 ;
+               var comissao = 0.035; 
+               var total = salario + comissao * venda
+                document.write ('Você irá receber neste mês: ' + total + ' reais '
+                );}
+            
+            
+            
+           
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
