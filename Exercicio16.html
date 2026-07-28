@@ -11,16 +11,16 @@
 
 </head>
 
-<body>
+<body class="m-3">
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Digite seu Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label">Digite sua Senha:</label>
+        <input onkeydown="acao()" type="text" class="form-control" id="exampleFormControlInput1"
+            placeholder="**********">
     </div>
-    <button onclick="acao()" type="button" class="btn btn-primary">Enviar</button>
 
     <script>
-        function acao(){
-            alert('Email enviado com Sucesso!')
+        function acao() {
+            console.log("Usuário Digitou");
         }
     </script>
 
